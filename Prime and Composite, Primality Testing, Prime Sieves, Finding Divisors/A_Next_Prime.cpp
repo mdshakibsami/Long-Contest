@@ -32,6 +32,7 @@ signed main()
             cout<<x<<endl;
             break;
         }
+        else cout<<x<<" ";
     }
 
 }
