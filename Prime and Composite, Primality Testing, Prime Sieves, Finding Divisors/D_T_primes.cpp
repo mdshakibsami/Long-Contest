@@ -11,6 +11,7 @@ signed main()
 
     int n;
     cin >> n;
+    //         Sieve 
     vector<int> v(n), Sieve(N + 1);
     for (int i = 0; i < n; i++)
         cin >> v[i];
@@ -18,7 +19,6 @@ signed main()
     for (int i = 0; i <= N; i++)
         Sieve[i] = 1;
 
-    //         Sieve 
 
     Sieve[0] = 0, Sieve[1] = 0;
     for (int i = 2; i*i <= N; i++)
